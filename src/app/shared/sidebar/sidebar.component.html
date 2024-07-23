@@ -1,0 +1,18 @@
+<div class="bg-dark border-right p-3" id="sidebar">
+    <h3 class="text-light">GiftsApp</h3>
+    <!-- linea -->
+    <hr>
+    <div class="list-group ">
+        <!-- stampa la lista  -->
+
+        <ng-container *ngFor="let l of lista">
+
+            <button class="list-group-item list-group-item-action" (click)="ricerca(l)">{{l | titlecase}}</button>
+
+        </ng-container>
+
+
+    </div>
+
+
+</div>

@@ -1,0 +1,16 @@
+<div class="card mb-2 bg-dark text-center" style="width: 12rem;">
+
+    <app-lazyimage [url]="gift.images.downsized_medium.url"  alt="{{gift.title}} "></app-lazyimage>
+
+
+    <!-- <img [src]="gift.images.downsized_medium.url" class="card-img-top " alt="{{gift.title}} "> -->
+
+
+    <div class="card-body text-light">
+
+        <p class="card-text">{{gift.title|| "no TITLE"}}
+
+        </p>
+
+    </div>
+</div>

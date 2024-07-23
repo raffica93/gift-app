@@ -1,0 +1,16 @@
+<div>
+    <h5>Search</h5>
+    <!-- stampa sempre ogni volta che scrivi -->
+    <!-- <input type="text" class="form-control " placeholder="cerca" 
+    (keyup)="search(valoreDiRicerca.value)" #valoreDiRicerca> -->
+
+    <!-- stampa ma senza viewchild -->
+    <!-- <input type="text" class="form-control " placeholder="cerca" 
+    (keyup.enter)="search(valoreDiRicerca.value)" #valoreDiRicerca> -->
+
+
+    <input #valoreDiRicerca type="text" class="form-control " placeholder="cerca" 
+    (keyup.enter)="searchNew()"
+       >
+
+</div>
